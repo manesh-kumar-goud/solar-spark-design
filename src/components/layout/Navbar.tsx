@@ -27,10 +27,10 @@ export function Navbar() {
               <Sun className="h-6 w-6 text-primary-foreground" />
             </div>
             <div className="hidden sm:block">
-              <h1 className="font-heading text-lg font-bold text-foreground">
-                Mahalaxmi Solar
+              <h1 className="font-heading text-base font-bold text-foreground tracking-tight">
+                MAHALAKSHMI SOLAR
               </h1>
-              <p className="text-xs text-muted-foreground">Energies</p>
+              <p className="text-xs font-medium text-primary tracking-wide">ENERGIES</p>
             </div>
           </Link>
 
