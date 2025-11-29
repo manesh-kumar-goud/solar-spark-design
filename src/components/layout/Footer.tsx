@@ -9,14 +9,14 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl gradient-solar">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg gradient-solar">
                 <Sun className="h-6 w-6 text-primary-foreground" />
               </div>
               <div>
-                <h3 className="font-heading font-bold text-foreground">
-                  Mahalaxmi Solar
+                <h3 className="font-heading text-sm font-bold text-foreground tracking-tight">
+                  MAHALAKSHMI SOLAR
                 </h3>
-                <p className="text-xs text-muted-foreground">Energies</p>
+                <p className="text-xs font-medium text-primary tracking-wide">ENERGIES</p>
               </div>
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -93,7 +93,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Mahalaxmi Solar Energies. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} MAHALAKSHMI SOLAR ENERGIES. All rights reserved.</p>
         </div>
       </div>
     </footer>
